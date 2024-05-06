@@ -69,9 +69,7 @@ function JSONReporter(runner, options = {}) {
       .replace(/\\n/g, "; ")
       .replace(/\",\"error\":/g, ' ",\n      "error": ')
       .replace(/\},/g, "\n    },\n")
-      .replace(/\}\]/g, "\n    }]")
-      .replace(/\[/g, "[\n")
-      .replace(/\]/g, "\n  ]");
+      .replace(/\}\]/g, "\n    }]");
     fs.writeFileSync(
       "output.json",
       `{\n  "stats": ${statsStr},\n  "failures": ${failuresStr}\n}`,
