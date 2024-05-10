@@ -40,22 +40,31 @@ describes the Sequelize configuration for its application.
 
 For this assessment, you are allowed to use the following resources:
 
+* [a/A curriculum on Canvas][canvas]
 * [MDN]
 * A whiteboard or paper to work out problems/code, but it must be within camera
   range
 * VS Code or a console for coding, testing, and experimentation
 * Node
 * Postman (when useful)
+* Previously written code you wrote yourself
+  * Except for code from previous assessment submissions
+* Comments within code
+  * If there are comments in your code about your specific code and about what
+    your code is doing, that is appropriate. If your comments are about concepts
+    and based on the readings, then that counts as notes. Those would not be
+    appropriate.
 * Official documentation, including:
   * [ExpressJS]
   * [SQLite3]
   * [Sequelize]
 
 You are **NOT** allowed to refer to any other resources, including--but not
-limited to--other websites (e.g., AA Open, StackOverflow), communication apps
-(e.g., Slack, Discord), search engines, notes, or any of your previously
-written code.
+limited to--other websites (e.g., StackOverflow), communication apps (e.g.,
+Slack, Discord), search engines, notes, or code from previous assessment
+submissions.
 
+[canvas]: https://appacademy.instructure.com/
 [MDN]: https://developer.mozilla.org/en-US/
 [ExpressJS]: http://expressjs.com/
 [SQLite3]: https://www.sqlite.org/docs.html
